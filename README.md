@@ -12,8 +12,8 @@ This project highlights how to leverage a ChromaDB vectorstore in a Langchain pi
    - Windows:`.\langchainenv\Scripts\activate`
    - Mac: `source langchainenv/bin/activate`
 5. Install the required dependencies `pip install -r requirements.txt`
-6. Add your OpenAI APIKey to line 22 of `app.py`
-7. Replace `<file path>` with proper path to a pdf.
+6. In `app.py` replace `<open ai key>` with your OPENAI_API_KEY
+7. Replace `<filename>` with proper path to a pdf.
 7. Start the app `streamlit run app.py`  
 
 

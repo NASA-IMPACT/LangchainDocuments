@@ -21,13 +21,13 @@ from langchain.agents.agent_toolkits import (
 
 # Set APIkey for OpenAI Service
 # Can sub this out for other LLM providers
-os.environ['OPENAI_API_KEY'] = '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'
+os.environ['OPENAI_API_KEY'] = '<open ai key>'
 
 # Create instance of OpenAI LLM
 llm = OpenAI(temperature=0.1, verbose=True)
 
 # Create and load PDF Loader
-file_name = "/Users/xhagrg/Downloads/IGARSS_Blockchain.pdf"
+file_name = "<filename>"
 loader = PyPDFLoader(file_name)
 
 # Split pages from pdf
